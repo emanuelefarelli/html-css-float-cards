@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;     
+    clear: both;
+}
+
+h1{
+    margin: 2rem;
+    text-align: center;
+    color: #e53170;
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.3rem;
+}
+
+header p{
+    /* display: block; */
+    text-align: center;
+    font-size: 1.5rem;
+    width: 70%;
+    margin: 3rem auto;
+    margin-bottom: 1rem;
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+    height: 300px;
+}
+
+.team-badge{
+    padding: 25px 15px;
+    width: 33.33%;
+    height: 150px;
+    float: left;
+}
+
+img{
+    height: 100%;
+    float: left;
+}
+
+.info-box{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.info{
+    color: white;
+    padding: 0.3rem;
+    padding-left: 0.5rem;
+}
+
+.email{
+    color: #4dccf2;
+}
+
