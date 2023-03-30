@@ -21,7 +21,6 @@ h2{
 }
 
 header p{
-    /* display: block; */
     text-align: center;
     font-size: 1.5rem;
     width: 70%;
@@ -45,6 +44,7 @@ header p{
 img{
     height: 100%;
     float: left;
+    margin-right: 10px;
 }
 
 .info-box{
